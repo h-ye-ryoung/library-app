@@ -3,6 +3,12 @@ package com.group.libraryapp.dto.user.response;
 import com.group.libraryapp.domain.user.User;
 
 public class UserResponse {
+    public UserResponse(long id, String name, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
     private long id;
     private String name;
     private Integer age;
