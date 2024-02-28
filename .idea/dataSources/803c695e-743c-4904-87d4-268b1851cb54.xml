@@ -1,99 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.48">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.49">
     <root id="1">
-      <DefaultCasing>mixed/mixed</DefaultCasing>
+      <DefaultCasing>lower/lower</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <Grants>|root||hyeryoung27|localhost|ALTER|G
-|root||root|localhost|ALTER|G
-|root||hyeryoung27|localhost|ALTER ROUTINE|G
+      <Grants>|root||root|localhost|ALTER|G
 |root||root|localhost|ALTER ROUTINE|G
-|root||hyeryoung27|localhost|BACKUP_ADMIN|G
 |root||root|localhost|BACKUP_ADMIN|G
-|root||hyeryoung27|localhost|BINLOG_ADMIN|G
 |root||root|localhost|BINLOG_ADMIN|G
-|root||hyeryoung27|localhost|CONNECTION_ADMIN|G
 |root||root|localhost|CONNECTION_ADMIN|G
-|root||hyeryoung27|localhost|CREATE|G
 |root||root|localhost|CREATE|G
-|root||hyeryoung27|localhost|CREATE ROLE|G
 |root||root|localhost|CREATE ROLE|G
-|root||hyeryoung27|localhost|CREATE ROUTINE|G
 |root||root|localhost|CREATE ROUTINE|G
-|root||hyeryoung27|localhost|CREATE TABLESPACE|G
 |root||root|localhost|CREATE TABLESPACE|G
-|root||hyeryoung27|localhost|CREATE TEMPORARY TABLES|G
 |root||root|localhost|CREATE TEMPORARY TABLES|G
-|root||hyeryoung27|localhost|CREATE USER|G
 |root||root|localhost|CREATE USER|G
-|root||hyeryoung27|localhost|CREATE VIEW|G
 |root||root|localhost|CREATE VIEW|G
-|root||hyeryoung27|localhost|DELETE|G
 |root||root|localhost|DELETE|G
-|root||hyeryoung27|localhost|DROP|G
 |root||root|localhost|DROP|G
-|root||hyeryoung27|localhost|DROP ROLE|G
 |root||root|localhost|DROP ROLE|G
-|root||hyeryoung27|localhost|ENCRYPTION_KEY_ADMIN|G
 |root||root|localhost|ENCRYPTION_KEY_ADMIN|G
-|root||hyeryoung27|localhost|EVENT|G
 |root||root|localhost|EVENT|G
-|root||hyeryoung27|localhost|EXECUTE|G
 |root||root|localhost|EXECUTE|G
-|root||hyeryoung27|localhost|FILE|G
 |root||root|localhost|FILE|G
-|root||hyeryoung27|localhost|GROUP_REPLICATION_ADMIN|G
 |root||root|localhost|GROUP_REPLICATION_ADMIN|G
-|root||hyeryoung27|localhost|INDEX|G
 |root||root|localhost|INDEX|G
-|root||hyeryoung27|localhost|INSERT|G
 |root||root|localhost|INSERT|G
-|root||hyeryoung27|localhost|LOCK TABLES|G
 |root||root|localhost|LOCK TABLES|G
-|root||hyeryoung27|localhost|PERSIST_RO_VARIABLES_ADMIN|G
 |root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
 |root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||hyeryoung27|localhost|PROCESS|G
 |root||root|localhost|PROCESS|G
-|root||hyeryoung27|localhost|REFERENCES|G
 |root||root|localhost|REFERENCES|G
-|root||hyeryoung27|localhost|RELOAD|G
 |root||root|localhost|RELOAD|G
-|root||hyeryoung27|localhost|REPLICATION CLIENT|G
 |root||root|localhost|REPLICATION CLIENT|G
-|root||hyeryoung27|localhost|REPLICATION SLAVE|G
 |root||root|localhost|REPLICATION SLAVE|G
-|root||hyeryoung27|localhost|REPLICATION_SLAVE_ADMIN|G
 |root||root|localhost|REPLICATION_SLAVE_ADMIN|G
-|root||hyeryoung27|localhost|RESOURCE_GROUP_ADMIN|G
 |root||root|localhost|RESOURCE_GROUP_ADMIN|G
-|root||hyeryoung27|localhost|RESOURCE_GROUP_USER|G
 |root||root|localhost|RESOURCE_GROUP_USER|G
-|root||hyeryoung27|localhost|ROLE_ADMIN|G
 |root||root|localhost|ROLE_ADMIN|G
-|root||hyeryoung27|localhost|SELECT|G
 |root||mysql.infoschema|localhost|SELECT|G
 |root||root|localhost|SELECT|G
-|root||hyeryoung27|localhost|SET_USER_ID|G
 |root||root|localhost|SET_USER_ID|G
-|root||hyeryoung27|localhost|SHOW DATABASES|G
 |root||root|localhost|SHOW DATABASES|G
-|root||hyeryoung27|localhost|SHOW VIEW|G
 |root||root|localhost|SHOW VIEW|G
-|root||hyeryoung27|localhost|SHUTDOWN|G
 |root||root|localhost|SHUTDOWN|G
-|root||hyeryoung27|localhost|SUPER|G
 |root||mysql.session|localhost|SUPER|G
 |root||root|localhost|SUPER|G
-|root||hyeryoung27|localhost|SYSTEM_VARIABLES_ADMIN|G
 |root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
 |root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||hyeryoung27|localhost|TRIGGER|G
 |root||root|localhost|TRIGGER|G
-|root||hyeryoung27|localhost|UPDATE|G
 |root||root|localhost|UPDATE|G
-|root||hyeryoung27|localhost|XA_RECOVER_ADMIN|G
 |root||root|localhost|XA_RECOVER_ADMIN|G
 |root||root|localhost|grant option|G
 performance_schema|schema||mysql.session|localhost|SELECT|G
@@ -951,69 +908,74 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <collation id="271" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="272" parent="1" name="University">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="273" parent="1" name="information_schema">
+    <schema id="272" parent="1" name="information_schema">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="274" parent="1" name="library">
+    <schema id="273" parent="1" name="library">
+      <IntrospectionTimestamp>2024-02-26.10:03:21</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2024-02-25.16:03:21</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="275" parent="1" name="mysql">
+    <schema id="274" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="276" parent="1" name="performance_schema">
+    <schema id="275" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="277" parent="1" name="sys">
+    <schema id="276" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="278" parent="1" name="hyeryoung27">
-      <Host>localhost</Host>
-    </user>
-    <user id="279" parent="1" name="mysql.infoschema">
+    <schema id="277" parent="1" name="sakila">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="278" parent="1" name="world">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="279" parent="1" name="university">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="280" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="280" parent="1" name="mysql.session">
+    <user id="281" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="281" parent="1" name="mysql.sys">
+    <user id="282" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="282" parent="1" name="root">
+    <user id="283" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="283" parent="274" name="user">
+    <table id="284" parent="273" name="user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="284" parent="283" name="id">
+    <column id="285" parent="284" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="285" parent="283" name="name">
+    <column id="286" parent="284" name="name">
       <DasType>varchar(25)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="286" parent="283" name="age">
+    <column id="287" parent="284" name="age">
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
-    <index id="287" parent="283" name="PRIMARY">
+    <index id="288" parent="284" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="288" parent="283" name="PRIMARY">
+    <key id="289" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
